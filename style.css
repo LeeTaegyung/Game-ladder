@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+h1 {
+    margin-bottom: 10px;
+}
+.ladder,
+.ladder2 {
+    position: relative;
+}
+.person_input,
+.gift_input {
+    position: absolute;
+    height: 20px;
+    border: 1px solid #000;
+    text-align: center;
+    font-size: 12px;
+    outline: 0;
+    box-shadow: none;
+}
+canvas {
+    display: block;
+    border: 3px solid black;
+}
