@@ -1,4 +1,4 @@
-import {PersonInfo} from './personinfo.js';
+import {PersonInfo} from './personInfo.js';
 
 export class Counter {
     constructor(data) {
